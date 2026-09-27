@@ -1,0 +1,67 @@
+# --- 依存関係 ---
+node_modules/
+.pnp
+.pnp.js
+
+# --- フロントエンド（Vite / TypeScript） ---
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+
+# --- Tauri / Rust ---
+src-tauri/target/
+src-tauri/gen/schemas
+target/
+**/*.rs.bk
+
+# --- ログ ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- 環境変数・秘密情報 ---
+# API キーは OS の資格情報に置く。ファイルに書いた場合もリポジトリに入れない。
+.env
+.env.*
+!.env.example
+
+# --- Himono の端末内生成物 ---
+# 索引は各端末が Markdown と sync/ から作り直す。同期・コミットしない。
+**/local/index.db
+**/local/index.db-*
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# --- テスト・カバレッジ ---
+coverage/
+playwright-report/
+test-results/
+*.lcov
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- エディタ（共有しない個人設定） -->-
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# --- その他のローカルファイル ---
+*.local
+.cache/
+tmp/
+temp/
