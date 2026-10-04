@@ -1,5 +1,5 @@
 # Memory Bank Index
-最終更新: 2026/10/04 20:08
+最終更新: 2026/10/04 20:59
 
 ## 中核ファイル（ファイル名 | 読むタイミング | 内容）
 - projectbrief.md | 必読 | 中核要件・ゴール・スコープ
@@ -13,6 +13,7 @@
 - k-20260930-cyber-content-block | a-2b,note,subagent | 攻撃の見た目を例示させる依頼は制限で止まる。防御側の例示に絞れば完走 | 2026/10/03 04:30
 
 ## 作業記録 work（id | tags | 要約 | 更新）
+- w-20261004-field-map-design | map,note,design | 0.4分野マップの表構成・科目別5段階重要度・出典表記を決定 | 2026/10/04 20:59
 - w-20261004-codex-memory-bank-opt | memory-bank,codex,setup | Codex向けに常時指示と更新手順を分離し、再読条件を最適化 | 2026/10/04 20:08
 - w-20260921-memory-bank-init | memory-bank,setup | memory-bank運用ルール追加を受け初期ファイル一式を生成 | 2026/09/21 20:50
 - w-20260929-a2b-ch1-rewrite | a-2b,note,rewrite | A-2B第1章7本をテンプレート準拠のレクチャー形式に改稿 | 2026/09/29 01:30
