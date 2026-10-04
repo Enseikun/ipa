@@ -1,5 +1,5 @@
 # Memory Bank Index
-最終更新: 2026/10/03 04:30
+最終更新: 2026/10/04 20:08
 
 ## 中核ファイル（ファイル名 | 読むタイミング | 内容）
 - projectbrief.md | 必読 | 中核要件・ゴール・スコープ
@@ -13,10 +13,11 @@
 - k-20260930-cyber-content-block | a-2b,note,subagent | 攻撃の見た目を例示させる依頼は制限で止まる。防御側の例示に絞れば完走 | 2026/10/03 04:30
 
 ## 作業記録 work（id | tags | 要約 | 更新）
+- w-20261004-codex-memory-bank-opt | memory-bank,codex,setup | Codex向けに常時指示と更新手順を分離し、再読条件を最適化 | 2026/10/04 20:08
 - w-20260921-memory-bank-init | memory-bank,setup | memory-bank運用ルール追加を受け初期ファイル一式を生成 | 2026/09/21 20:50
 - w-20260929-a2b-ch1-rewrite | a-2b,note,rewrite | A-2B第1章7本をテンプレート準拠のレクチャー形式に改稿 | 2026/09/29 01:30
 - w-20260930-a2b-ch2-5-rewrite | a-2b,note,rewrite | A-2B第2〜5章34本を主語・目的明示と実体例示つきで改稿（情報量維持） | 2026/09/30 07:50
 - w-20261003-a2b-ch7-9-rewrite | a-2b,note,rewrite | A-2B第7〜9章19本を同方針で改稿。過去問年度の欠落が7.4・7.7に残る | 2026/10/03 04:30
 
 ## 追加ドキュメント（ファイル名 | 読むタイミング | 内容）
-（なし）
+- OPERATIONS.md | Memory Bankの更新・監査時のみ | 更新書式・肥大化防止・監査手順
